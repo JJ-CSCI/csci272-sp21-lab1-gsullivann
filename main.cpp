@@ -5,7 +5,39 @@
 //------------------------------
 
 // Write your code here
+class Parasite {
+public:
 
+  double reproductionRate{0};
+  double resistance;
+  double getReproductionRate() { 
+    return reproductionRate; 
+  }
+  double getResistance() {
+    return resistance;
+  }
+
+Parasite reproduce(reproductionRate, {0.10}); 
+Parasite survive(resistance, {0.05});
+
+};
+
+class Animal {
+public:
+
+  double immunity;
+  unsigned int parasites{1000};
+public: 
+  double getImmunity(){
+    return immunity;
+  }
+  double getParasiteNumber() {
+    return parasites;
+  }
+
+Animal takeDrug( immunity{0.07}; parasites, {100});
+
+}
 
 //------------------------------
 //   DO NOT MODIFY TEST CASES
