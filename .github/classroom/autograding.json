@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Parasite Fields",
+      "setup": "",
+      "run": "make score1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "Parasite Methods",
+      "setup": "",
+      "run": "make score2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "Animal Fields",
+      "setup": "",
+      "run": "make score3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "Animal Methods",
+      "setup": "",
+      "run": "make score4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    }
+  ]
+}
